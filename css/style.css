@@ -1,0 +1,154 @@
+body {
+  background-color: #11A6CD;
+}
+
+nav {
+  background-color: #C8B9FE;
+  margin-bottom: 10px;
+}
+
+#myBtn{
+  background-color: #11A6CD;
+}
+
+.signup {
+    background-color: #C8B9FE;
+}
+
+.createpost {
+  color: black;
+  background-color: #C8B9FE;
+}
+
+#loginsubmit {
+  color: black;
+  background-color: #11A6CD;
+}
+
+.navbar {
+  /* margin: 10px; */
+}
+
+.navbar-brand {
+  margin: 10px;
+  text-shadow: 2px 4px white;
+  font-size: 30px;
+}
+
+.card {
+  margin: 30px;
+  background-color: #C8B9FE;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.postForm {
+  text-align: center;
+}
+}
+
+.signupForm {
+  margin-left: 20px;
+}
+
+.email {
+  margin: 2px;
+}
+
+.pw {
+  margin: 2px;
+}
+
+.username {
+  margin: 2px;
+}
+
+#delete {
+  color: red;
+  padding: 10px;
+}
+
+#comment {
+  color: red;
+}
+
+/* dropdown bar*/
+.dropbtn {
+  background-color: #11A6CD;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #C8B9FE;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
